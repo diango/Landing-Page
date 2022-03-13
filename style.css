@@ -74,7 +74,7 @@ li a {
 }
 
 .main-left {
-    max-width: 45%;
+    max-width: 60%;
 }
 
 .main-left h1 {
@@ -102,7 +102,12 @@ li a {
 }
 
 .main-right {
-    max-width: 45%;
+    max-width: 35%;
+}
+
+.main-right img {
+    width: 82%;
+    margin-left: 50px;
 }
 /*==================+++++++++
     ENDING MAIN
@@ -127,10 +132,35 @@ li a {
 
 .cards {
     display: flex;
-    gap: 17px;
+    justify-content: space-between;
+    align-items: center;
     width: 70%;
     margin-bottom: 25px;
+    flex-wrap: wrap;
 }
+
+.card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {
+    width: 60%;
+    margin: 17px auto;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+card-img-1 {
+    margin-left: 12px;
+}
+
 
 .blockquote {
     background-color: #E5E7EB;
@@ -142,7 +172,7 @@ blockquote {
     margin: 50px auto;
     width: 70%;
     text-align: left;
-    font-size: 36px;
+    font-size: 26px;
     font-style: italic;
     color: #1F2937;
 }
