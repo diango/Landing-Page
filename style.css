@@ -18,7 +18,7 @@ body {
 }
 
 /*==================+++++++++
-    START HEADER
+    BEGINNING HEADER
 =====================++++++++*/
 .header {
     display: flex;
@@ -34,8 +34,14 @@ body {
     margin: 12px auto;
 }
 
+.hero .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .navigation ul {
     display: flex;
+    gap: 10px;
 }
 
 ul li {
@@ -45,14 +51,111 @@ ul li {
 li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 12px;
 }
 
 
 /*==================+++++++++
-    END HEADER
+    ENDING HEADER
 =====================++++++++*/
 
 
+/*==================+++++++++
+    BEGINNING MAIN
+=====================++++++++*/
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 60px auto;
+    gap: 15px;
+}
+
+.main-left {
+    max-width: 45%;
+}
+
+.main-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    line-height: 1;
+}
+
+.main-left p {
+    font-style: initial;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-left button {
+    font-size: 16px;
+    padding: 9px 22px;
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.main-right {
+    max-width: 45%;
+}
+/*==================+++++++++
+    ENDING MAIN
+=====================++++++++*/
+
+
+/*==================+++++++++
+    BEGINNING SECTION
+=====================++++++++*/
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 25px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 17px;
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+.blockquote {
+    background-color: #E5E7EB;
+    margin: 30px 0;
+
+}
+
+blockquote {
+    margin: 50px auto;
+    width: 70%;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.blockquote p.author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*==================+++++++++
+    ENDING SECTION
+=====================++++++++*/
 
 
 /*==================+++++++++
@@ -61,6 +164,7 @@ li a {
 .call-to-action {
     background-color: #3882f6;
     width: 80%;
+    font-size: 26px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,12 +175,13 @@ li a {
 }
 
 .action p {
-    font-size: 12px;
+    font-size: 15px;
     font-style: initial;
 }
 
 .btn-action button {
-    padding: 4px 15px;
+    font-size: 16px;
+    padding: 9px 20px;
     background-color: #3882f6;
     color: #fff;
     border: 2px solid white;
